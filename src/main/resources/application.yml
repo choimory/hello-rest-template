@@ -1,9 +1,12 @@
-json:
-  api:
-    url:
-    key:
+server:
+  port: 8080
 
-xml:
+reqpart:
   api:
-    url:
-    key:
+    get: https://httpbin.org/get
+    post: https://httpbin.org/post
+
+respart:
+  api:
+    json: http://openapi.seoul.go.kr:8088/sample/json/GetParkInfo/1/5/
+    xml: http://openapi.seoul.go.kr:8088/sample/xml/GetParkInfo/1/5/
