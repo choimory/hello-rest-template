@@ -3,16 +3,12 @@ package com.choimory.helloresttemplate.reqpart.service;
 import com.choimory.helloresttemplate.common.BasicAuthDto;
 import com.choimory.helloresttemplate.common.BearerTokenDto;
 import com.choimory.helloresttemplate.reqpart.dto.request.ReqPartRequestDto;
-import com.choimory.helloresttemplate.reqpart.dto.response.ReqPartResponseDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
@@ -20,7 +16,6 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 

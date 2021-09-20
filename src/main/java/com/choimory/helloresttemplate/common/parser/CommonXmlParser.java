@@ -22,8 +22,8 @@ public class CommonXmlParser {
         return StringUtils.startsWithIgnoreCase(str, "<");
     }
 
-    public static List<Map<String, String>> parseXmlStringToListMap(String xml, String targetTag) throws ParserConfigurationException, IOException, SAXException {
-        List<Map<String, String>> resultList = new ArrayList<>();
+    public static List<Map<String, ?>> parseXmlStringToListMap(String xml, String targetTag) throws ParserConfigurationException, IOException, SAXException {
+        List<Map<String, ?>> resultList = new ArrayList<>();
 
         /*BUILD DOCUMENT*/
         InputSource inputSource = new InputSource(new StringReader(xml));
