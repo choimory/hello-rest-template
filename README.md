@@ -9,6 +9,7 @@
 - JSON/XML 결과를 받아, 이를 파싱하는 방법을 학습
   - JSON 및 XML 파싱 예제로 사용할 API
     - 공공데이터 API의 서울시 공공주차장 API.
+    - API 문서 : `http://data.seoul.go.kr/dataList/OA-13122/A/1/datasetView.do`
     - GET `http://openapi.seoul.go.kr:8088/sample/json/GetParkInfo/1/5/` (JSON)
     - GET `http://openapi.seoul.go.kr:8088/sample/xml/GetParkInfo/1/5/` (XML)
 
